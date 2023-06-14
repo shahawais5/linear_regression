@@ -1,6 +1,6 @@
 # linear_regression
 
-A new Flutter project.
+![WhatsApp Image 2023-06-14 at 21 03 38](https://github.com/shahawais5/linear_regression/assets/120441699/29d4a61f-bd50-4bb7-9386-714fb163b50d)
 
 ## Getting Started
 
