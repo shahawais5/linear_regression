@@ -1,0 +1,21 @@
+ ///Shah Awais////
+ code defines a LinearRegression class that takes input data (x and y arrays)
+ and provides methods for training the model (train) and making predictions (predict).
+ The train method calculates the slope and intercept
+ of the best-fit line using the ordinary least squares method.
+ The predict method uses the calculated slope and intercept to make predictions for new input values.
+In the main function, we create an instance of LinearRegression,
+provide input data, and train the model.
+ Then, we make a prediction for an input value of 6 and print the calculated slope,
+  intercept, and the prediction itself.
+  the LinearRegression class remains the same as before.
+  However, the main() function is replaced by a Flutter app.
+  We create a LinearRegressionApp widget that extends StatefulWidget.
+  Inside the LinearRegressionAppState,
+  we initialize the linear regression model,
+  train it, and make a prediction in the initState() method.
+
+  The UI is created using a Scaffold with an AppBar
+  and a Center widget that contains the Column widget to display the slope,
+   intercept, and prediction results. The slope and intercept are displayed using Text widgets,
+    and the prediction is also displayed using a Text widget.
